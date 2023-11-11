@@ -1,0 +1,181 @@
+form {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  backdrop-filter: blur(12px);
+  position: center;
+  padding: 20px;
+}
+  
+body {
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+  transition: all 0.5s ease-in;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  color: white;
+  height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+  width: 100%;
+}
+
+.logo {
+  vertical-align: middle;
+  float: center;
+  position: center;
+}
+
+div.label {
+  color: rgb(255, 255, 255);
+  position: center;
+  display: inline-block;
+  margin-top: 10px;
+	overflow: hidden;
+  text-align: center;
+  width: 100%;
+}
+
+input[id=login], input[id=pass]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  box-sizing: border-box;
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+}
+
+.buttons{
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+
+button{
+  color: #f2f2f2;
+  background: #42a5f5;
+  width: 100%;
+  border: none;
+  margin: 8px 0;
+  padding: 14px 20px;
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 5px;
+}
+  
+button:hover{
+  opacity: 0.8;
+}
+
+.backbtn {
+  background-color: #ef534e;
+}
+
+.limiter{
+  width:100%;
+  margin:0 auto;
+  overflow: hidden;
+}
+
+.container-login{
+  width:100%;
+  min-height:100vh;
+  display:-webkit-box;
+  display:-webkit-flex;
+  display:-moz-box;
+  display:-ms-flexbox;
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  padding:15px;
+  overflow: hidden;
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  position:relative;
+  z-index:1
+}
+
+.container-login::before{
+  content:"";
+  display:block;
+  position:absolute;
+  z-index:-1;
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  top:0;
+  left:0;
+  background-color:rgba(255,255,255,.0)
+}
+
+.div-login{
+  width:400px;
+  border-radius:10px;
+  overflow:hidden;
+  padding:55px 55px 37px;
+}
+
+.login-form{
+  width:100%;
+  overflow: hidden;
+}
+
+a.recover {
+  color: white;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+.list-group a {
+  border: 1px solid #DDDDDD;
+  color: #888888;
+  padding: 8px 12px;
+}
+
+.list-group a.active, .list-group a.active:hover, .list-group a:hover {
+  color: #444444;
+  background: #eeeeee;
+  border: 1px solid #DDDDDD;
+  text-shadow: 0 1px 0 #FFF;
+}
+
+.fa {
+	font-size: 14px;
+}
+
+ul {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.nav-item {
+  background-color: #f2f2f2;
+  margin: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.nav-item:hover{
+  opacity: 0.8;
+}
+
+.nav-item a {
+  color: #0d0d0d;
+  text-decoration: none;
+  overflow: hidden;
+}
