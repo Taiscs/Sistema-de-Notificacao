@@ -3,7 +3,7 @@
 $servername = "localhost"; //endereço do seu servidor MySQL, se necessário
 $username = "root"; // nome de usuário do MySQL
 $password = ""; //senha do MySQL
-$database = "notificacao"; //  nome do banco de dados que você deseja conectar
+$database = ""; //  nome do banco de dados que você deseja conectar
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$database", $username, $password);
